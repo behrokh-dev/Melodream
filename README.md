@@ -1,4 +1,4 @@
-# 🎵 Melodream
+# 🎵 Melodream🩷
 
 > **Music that feels like a dream.**
 
@@ -9,6 +9,8 @@ This project was created to practice building a dynamic and interactive web appl
 🔗 **Live Demo:** [Melodream](https://behrokh-dev.github.io/Melodream/)
 
 ---
+
+## 📸 Preview of Melodream🎵🩷
 
 ## ✨ Features
 
@@ -21,13 +23,10 @@ This project was created to practice building a dynamic and interactive web appl
 - ⏭️ Next and Previous track controls
 - 🔊 Volume control
 - 📊 Interactive progress bar
-- ❤️ Liked Songs section
-- 🎼 Music Categories
 - 👨‍🎤 Popular Artists section
 - 🇮🇷 Persian Artists collection
 - 🌎 International Artists collection
 - 💿 Albums and Playlists interface
-- 🔎 Search functionality
 - 🎨 Modern UI with Tailwind CSS
 - ✨ Smooth interactions and hover effects
 
@@ -52,7 +51,6 @@ Building Melodream gave me the opportunity to work with several important fronte
 - Dynamic rendering
 - SPA-style navigation with Vanilla JavaScript
 - Managing application state
-- Audio API and music playback
 - JavaScript arrays and objects
 - Responsive layouts with Tailwind CSS
 - Reusable UI sections
@@ -88,8 +86,31 @@ The application includes several music-focused sections:
 - **Music Player**
 
 ---
+## 💡 Why Melodream?
 
+Melodream started as a frontend practice project, but it became an opportunity to explore how far **Vanilla JavaScript** can go when building a complete web application.
 
+Instead of relying on a JavaScript framework, the project focuses on understanding the fundamentals:
 
+> **HTML for structure, Tailwind CSS for styling, and Vanilla JavaScript for interaction and logic.**
 
+---
+
+## 👩🏻‍💻 Author
+
+**Behrokh**
+
+Frontend Developer passionate about building interactive, responsive, and creative web experiences.
+
+- GitHub: [@behrokh-dev](https://github.com/behrokh-dev)
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, feel free to **star ⭐ the repository** and explore the code.
+
+Thanks for listening! 🎧💜
+
+> **Code. Create. Listen. Dream.**
 
