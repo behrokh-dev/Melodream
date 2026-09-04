@@ -6,7 +6,7 @@ Melodream is a modern, responsive **Single Page Application (SPA)** music player
 
 This project was created to practice building a dynamic and interactive web application without relying on JavaScript frameworks like React. It combines a clean music-focused interface with JavaScript-powered navigation, music controls, dynamic content, and responsive layouts.
 
-🔗 **Live Demo:** [Melodream](https://behrokh-dev.github.io/Melodream/)
+🔗 **Live Demo: https://behrokh-dev.github.io/Melodream/
 
 ---
 
