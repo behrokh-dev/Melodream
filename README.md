@@ -31,6 +31,8 @@ This project was created to practice building a dynamic and interactive web appl
 - 🎵 Music playback controls
 - ⏯️ Play / Pause functionality
 - ⏭️ Next and Previous track controls
+- 🔁 Repeat button control
+- 🔀 Shuffle Button control
 - 🔊 Volume control
 - 📊 Interactive progress bar
 - 👨‍🎤 Popular Artists section
