@@ -12,6 +12,16 @@ This project was created to practice building a dynamic and interactive web appl
 
 ## 📸 Preview of Melodream🎵🩷
 
+<img width="1918" height="1080" alt="Image" src="https://github.com/user-attachments/assets/af1be583-d4e0-4e56-8f5c-5ac3315baf88" />
+
+<img width="1918" height="1080" alt="Image" src="https://github.com/user-attachments/assets/db073154-1951-4348-965e-24b86febfa1d" />
+
+<img width="1918" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6abd8463-3233-45eb-9862-1dd38a95dcf5" />
+
+<img width="1918" height="422" alt="Image" src="https://github.com/user-attachments/assets/60b5be2f-89f0-4bae-88a4-cb4ce5adff28" />
+
+---
+
 ## ✨ Features
 
 - 🎧 Modern and responsive music player interface
