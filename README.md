@@ -110,11 +110,9 @@ Instead of relying on a JavaScript framework, the project focuses on understandi
 
 ## 👩🏻‍💻 Author
 
-**Behrokh**
+**Behrokh-dev**
 
 Frontend Developer passionate about building interactive, responsive, and creative web experiences.
-
-- GitHub: [@behrokh-dev](https://github.com/behrokh-dev)
 
 ---
 
