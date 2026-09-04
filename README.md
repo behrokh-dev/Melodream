@@ -36,7 +36,7 @@ This project was created to practice building a dynamic and interactive web appl
 - 🔊 Volume control
 - 📊 Interactive progress bar
 - 👨‍🎤 Popular Artists section
-- 🇮🇷 Persian Artists collection
+- 🩷 Persian Artists collection
 - 🌎 International Artists collection
 - 💿 Albums and Playlists interface
 - 🎨 Modern UI with Tailwind CSS
