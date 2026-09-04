@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎵Melodream🎵</title>
+    <link rel="stylesheet" href="assets/stylesheet/output.css" />
+    <link rel="stylesheet" href="assets/icon/remixicon.css">
+  </head>
+  <body>
+    <div class="app-layout">
+
+      <!-- -------- main -------->
+      <main class="main-wrapper">
+        
+        <div class="main-scroll-area">
+          <div id="app">
+            <div id="homepage">
+          
+              <!-- Top bar / Melodream Brand -->
+              <div class="melodream-topbar">
+                <div class="melodream-brand">
+                  <div class="melodream-icon">
+                    <i class="ri-headphone-fill"></i>
+                  </div>
+
+                  <div>
+                    <h1 class="melodream-logo">Melodream</h1>
+                    <p class="melodream-tagline">Music that feels like a dream</p>
+                  </div>
+
+                  <div class="melodream-equalizer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Hero -->
+              <section class="hero brand-gradient">
+                <img src="assets/img/hghghg.jpg" class="absolute inset-0 w-full h-full object-cover opacity-90" />
+                <div class="absolute inset-0 bg-gradient-to-l from-transparent via-black/10 to-black/50"></div>
+                <div class="relative h-full flex flex-col justify-center px-5 md:px-9 max-w-md">
+                  <span class="hero-badge">NEW RELEASE</span>
+                  <h1 class="text-2xl md:text-4xl font-extrabold leading-tight mb-1">Dreaming Again</h1>
+                  <p class="text-white/80 mb-4 md:mb-5">Listen Now</p>
+                </div>
+              </section>
+
+              <!-- Popular Artists -->
+              <section class="mb-8">
+                <div class="section-header">
+                  <h2 class="section-title">Popular Artists</h2>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
+                  <div class="artist-card" data-artist="sirvan-khosravi">
+                    <img src="assets/img/sirvan.webp" class="artist-avatar"  />
+                    <p class="text-sm font-semibold flex items-center gap-1">Sirvan Khosravi <i class="ri-verified-badge-fill text-brand-blue text-xs"></i></p>
+                    <p class="text-xs text-slate-500">28.4M followers</p>
+                  </div>
+                  <div class="artist-card" data-artist="younes-bayat">
+                    <img src="assets/img/younesbayat.jpg" class="artist-avatar" />
+                    <p class="text-sm font-semibold flex items-center gap-1">Younes Bayat <i class="ri-verified-badge-fill text-brand-blue text-xs"></i></p>
+                    <p class="text-xs text-slate-500">22.1M followers</p>
+                  </div>
+                  <div class="artist-card" data-artist="shadmehr-aghili">
+                    <img src="assets/img/shid.jpg" class="artist-avatar" />
+                    <p class="text-sm font-semibold">Shadmehr Aghili</p>
+                    <p class="text-xs text-slate-500">18.7M followers</p>
+                  </div>
+                  <div class="artist-card" data-artist="ehsan-khajeamiri">
+                    <img src="assets/img/ehsankhajeamiri.jpg" class="artist-avatar" />
+                    <p class="text-sm font-semibold">Ehsan KhajehAmiri</p>
+                    <p class="text-xs text-slate-500">17.3M followers</p>
+                  </div>
+                  <div class="artist-card" data-artist="alireza-ghorbani">
+                    <img src="assets/img/ghorbani22.jpg" class="artist-avatar" />
+                    <p class="text-sm font-semibold flex items-center gap-1">Alireza Ghorbani <i class="ri-verified-badge-fill text-brand-blue text-xs"></i></p>
+                    <p class="text-xs text-slate-500">16.2M followers</p>
+                  </div>
+                  <div class="artist-card" data-artist="farzad">
+                  <img src="assets/img/farzin7r.jpg" class="artist-avatar" />
+                  <p class="text-sm font-semibold flex items-center gap-1">Farzad Farzin<i class="ri-verified-badge-fill text-brand-blue text-xs"></i></p>
+                  <p class="text-xs text-slate-500">25.5M followers</p>
+                </div>
+                </div>
+              </section>
+
+              <!-- persian artists -->
+              <section class="mb-8">
+                <div class="section-header flex items-center justify-between">
+                  <h2 class="section-title">Persian Artists</h2>
+                  <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-1 ms-2">
+                      <button class="slider-nav-btn slider-prev" aria-label="Previous"><i class="ri-arrow-left-line"></i></button>
+                      <button class="slider-nav-btn slider-next" aria-label="Next"><i class="ri-arrow-right-line"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="rp-track" class="track-slider" tabindex="0">
+                  <div class="track-card group" data-artist="asef-aria">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/asf.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Asef Aria</p>
+                  </div>
+                  <div class="track-card group" data-artist="homayoun-shajarian">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/homayoun.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Homayoun Shajarian</p>
+                  </div>
+                  <div class="track-card group" data-artist="babak-jahanbakhsh">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/jahanbakhsh.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Babak Jahanbakhsh</p>
+                  </div>
+                  <div class="track-card group" data-artist="hamim">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/Hamim-Remix.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Hamim</p>
+                  </div>
+                  <div class="track-card group" data-artist="roozbeh-bemani">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/roozbehbemani.jpg" class="track-art brightness-50" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Roozbeh Bemani</p>
+                  </div>
+                  <div class="track-card group" data-artist="7-band">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/7-Band.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Seven-7 Band</p>
+                  </div>
+                  <div class="track-card group" data-artist="arshias">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/arshias.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Arshias</p>
+                  </div>
+                  <div class="track-card group" data-artist="ashvan">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/ashvan.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Ashvan</p>
+                  </div>
+                  <div class="track-card group" data-artist="erfan">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/erfan.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Erfan Tahmasebi</p>
+                  </div>
+                  <div class="track-card group" data-artist="golab">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/golab.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Amirabbas Golab</p>
+                  </div>
+                  <div class="track-card group" data-artist="mammrez">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/mmamrez.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Mamrez</p>
+                  </div>
+                  <div class="track-card group" data-artist="novan">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/novan.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Novan</p>
+                  </div>
+                  <div class="track-card group" data-artist="ebi">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/ebi.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Ebi</p>
+                  </div>
+                  <div class="track-card group" data-artist="siavash-ghomeishi">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/siavashghomeishi.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Siavash Ghomeishi</p>
+                  </div>
+                  <div class="track-card group" data-artist="yeganeh">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/yegane.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Mohsen Yeganeh</p>
+                  </div>
+                  <div class="track-card group" data-artist="reza-bahram">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/rezabahram.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Reza Bahram</p>
+                  </div>
+                  <div class="track-card group" data-artist="zaniar-khosravi">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/zaniar.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Xaniar Khosravi</p>
+                  </div>
+                </div>
+              </section>
+
+              <!-- international artist -->
+              <section class="mb-8">
+                <div class="section-header flex items-center justify-between">
+                  <h2 class="section-title">International Artists</h2>
+                  <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-1 ms-2">
+                      <button class="slider-nav-btn slider-prev" aria-label="Previous"><i class="ri-arrow-left-line"></i></button>
+                      <button class="slider-nav-btn slider-next" aria-label="Next"><i class="ri-arrow-right-line"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="track-slider" tabindex="0">
+                  <div class="track-card group" data-artist="cold-play">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/coldplay4.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Cold Play</p>
+                  </div>
+                  <div class="track-card group" data-artist="adel">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/adel.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Adel</p>
+                  </div>
+                  <div class="track-card group" data-artist="harry-style">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/harry.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Harry Styles</p>
+                  </div>
+                  <div class="track-card group" data-artist="shakira">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/shakira.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Shakira</p>
+                  </div>
+                  <div class="track-card group" data-artist="michel-jackson">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/jaackson.jpg" class="track-art " />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Michael Jackson</p>
+                  </div>
+                  <div class="track-card group" data-artist="rihana">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/rihana.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate"> Rihanna</p>
+                  </div>
+                  <div class="track-card group" data-artist="celindion">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/celindion.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Céline Dion</p>
+                  </div>
+                  <div class="track-card group" data-artist="enrique">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/enrique.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Enrique Iglesias</p>
+                  </div>
+                  <div class="track-card group" data-artist="charli">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/charli.webp" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Charlie Puth</p>
+                  </div>
+                  <div class="track-card group" data-artist="shiren">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/sh.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Ed Sheeran</p>
+                  </div>
+                  <div class="track-card group" data-artist="selena-gomez">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/selena.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Selena Gomez</p>
+                  </div>
+                  <div class="track-card group" data-artist="jenifer-lopez">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/jenifer.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Jennifer Lopez </p>
+                  </div>
+                  <div class="track-card group" data-artist="taylor-swift">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/taylor3.webp" class="track-art brightness-70" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Taylor Swift</p>
+                  </div>
+                  <div class="track-card group" data-artist="billieylish">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/Billieilish.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Billie Eilish</p>
+                  </div>
+                  <div class="track-card group" data-artist="dualipa">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/dua22.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Dua Lipa</p>
+                  </div>
+                  <div class="track-card group" data-artist="weekend">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/weekend.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2"><i class="ri-play-large-fill"></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">The Weeknd</p>
+                  </div>
+                  <div class="track-card group" data-artist="justin-beiber">
+                    <div class="track-art-wrap">
+                      <img src="assets/img/justin.jpg" class="track-art" />
+                      <button class="play-overlay-btn brand-gradient absolute bottom-2 right-2 z-99"><i class="ri-play-large-fill "></i></button>
+                    </div>
+                    <p class="text-sm font-semibold truncate">Justin Bieber</p>
+                  </div>
+                </div>
+              </section>
+
+              <!-- my personal footer  -->
+              <footer class="epic-footer">
+                <div class="epic-footer-glow"></div>
+                <div class="epic-footer-content">
+                  <div class="epic-avatar-box">
+                    <div class="epic-avatar-ring">
+                      <img src="assets/img/l.png" alt="Avatar" class="epic-avatar" />
+                    </div>
+                    <span class="epic-status-dot"></span>
+                  </div>
+                  <div class="epic-text-box">
+                    <div class="flex items-center gap-3">
+                      <h3 class="epic-title">Behrokh-Dev</h3>
+                      <div class="epic-equalizer">
+                        <span></span><span></span><span></span><span></span><span></span>
+                      </div>
+                    </div>
+                    <p class="epic-desc">Created with passion for music & code by Behrokh. <br> Listen and Enjoy <br> © 2026 <i class="ri-headphone-fill"></i> Melodream. <br> <i class="ri-tailwind-css-fill"></i> <i class="ri-javascript-fill"></i></p>
+                  </div>
+                  <div class="epic-socials">
+                    <a href="https://github.com/behrokh-dev" target="_blank"  class="epic-social-btn"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/behrokh-naderi/" target="_blank" class="epic-social-btn"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://www.instagram.com/behrokh_dev" target="_blank" class="epic-social-btn"><i class="ri-instagram-line"></i></a>
+                    <a href="mailto:naderibehrokh@gmail.com" target="_blank" class="epic-social-btn"><i class="ri-google-fill"></i></a>
+                  </div>
+                </div>
+              </footer>
+
+            </div>
+          </div>
+        </div> 
+
+        <!-- ---------bottom music player--------- -->
+        <div class="music-player">
+          <!-- Song Info -->
+          <div class="music-player-info">
+            <div class="min-w-0 lg:pl-10">
+              <p class="text-sm md:text-xl font-bold truncate" id="playerSong">🎵Song Name</p>
+              <p class="text-sm md:text-xl text-slate-500 truncate" id="playerArtist">Artist</p>
+            </div>
+            <button class="like-btn"><i class="ri-heart-3-fill"></i></button>
+          </div>
+
+          <!-- Main Controls -->
+          <div class="music-player-center pb-5">
+            <div class="music-controls">
+              <button class="control-btn-skip"  id="shuffleBtn"><i class="ri-shuffle-line cursor-pointer"></i></button>
+              <button class="control-btn-skip" id="prevBtn"><i class="ri-rewind-fill cursor-pointer"></i></button>
+              <button class="control-btn-primary" id="playBtn"><i class="ri-play-large-fill cursor-pointer" id="playIcon"></i></button>
+              <button class="control-btn-skip" id="nextBtn"><i class="ri-speed-fill cursor-pointer"></i></button>
+              <button class="control-btn-skip" id="repeatBtn"><i class="ri-repeat-one-fill cursor-pointer"></i></button>
+            </div>
+            <div class="music-progress">
+              <span id="currentTime">0:00</span>
+              <div class="progress-track flex-1" id="progressBar" style="--progress: 0%"></div>
+              <span id="duration">0:00</span>
+            </div>
+          </div>
+
+          <!-- Volume -->
+          <div class="music-volume pr-10">
+            <i class="ri-volume-up-fill cursor-pointer" id="volumeIcon"></i>
+            <div class="progress-track flex-1" style="--progress: 65%" id="volumeBar"></div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+
+    <script src="assets/javascript/master.js"></script>
+  </body>
+</html>
